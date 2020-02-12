@@ -5,7 +5,7 @@ const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
 require('./util/eventLoader')(client);
-
+const keep_alive = require('./keep_alive.js') //index.js Const Kısımlarına
 var prefix = ayarlar.prefix;
 
 const log = message => {

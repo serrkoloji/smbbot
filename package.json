@@ -1,14 +1,15 @@
 {
-  "name": "emirhansarac",
+  "name": "smbbot",
   "version": "0.0.1",
   "description": "",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node bot.js"
+    "test": "node index.js"
   },
-  "author": "emirhansaracc",
+  "author": "Serkan Yalçýn",
   "license": "ISC",
   "dependencies": {
+    "better-sqlite3": "^5.4.3",
     "chalk": "^2.3.0",
     "cleverbot-node": "^0.3.11",
     "croxy-api": "^1.4.1",
@@ -19,7 +20,7 @@
     "moment": "^2.24.0",
     "moment-duration-format": "^1.3.0",
     "ms": "^2.0.0",
-    "quick.db": "^7.0.0-b22",
+    "quick.db": "^6.3.2",
     "request": "^2.88.2",
     "return-deep-diff": "^0.4.0",
     "weather-js": "^2.0.0"
